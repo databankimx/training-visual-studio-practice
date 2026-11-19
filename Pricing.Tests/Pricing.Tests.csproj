@@ -9,10 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Versions are floating until they are pinned in Visual Studio's NuGet Package Manager. -->
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="*" />
-    <PackageReference Include="NUnit" Version="4.*" />
-    <PackageReference Include="NUnit3TestAdapter" Version="*" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.12.0" />
+    <PackageReference Include="NUnit" Version="4.6.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="6.3.1" />
   </ItemGroup>
 
   <ItemGroup>
