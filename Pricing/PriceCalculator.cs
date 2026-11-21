@@ -40,6 +40,6 @@ public static class PriceCalculator
         {
             return 0m;
         }
-        return prices.Min();
+        return prices.Max();
     }
 }

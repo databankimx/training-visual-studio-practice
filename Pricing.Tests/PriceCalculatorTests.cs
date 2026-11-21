@@ -7,11 +7,10 @@ namespace Pricing.Tests;
 public class PriceCalculatorTests
 {
     [Test]
-    public void Total_OfOneTwoThree_IsSeven()
+    public void Total_OfOneTwoThree_IsSix()
     {
-        // Deliberately wrong expected value: the correct total is 6.
         decimal result = PriceCalculator.Total(new[] { 1m, 2m, 3m });
-        Assert.That(result, Is.EqualTo(7m));
+        Assert.That(result, Is.EqualTo(6m));
     }
 
     [Test]
